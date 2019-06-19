@@ -50,6 +50,7 @@ class RegisterClass:
     def buttonclick(self):
         self.win.destroy()
         reg = first.LoginClass()
+        reg.add_frame()
 
     def buttonreg(self):
         self.user = self.username.get()

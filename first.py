@@ -40,7 +40,8 @@ class LoginClass:
 
     def buttonreg(self):
         self.win.destroy()
-        reg = second.RegisterClass()
+        r = second.RegisterClass()
+        r.add_frame()
 
 
 if __name__ == "__main__":
