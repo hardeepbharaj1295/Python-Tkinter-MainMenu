@@ -9,7 +9,6 @@ class LoginClass:
         self.win = Tk()
         self.win.geometry("600x400")
         self.win.title("Login")
-        self.win.deiconify()
 
     def add_frame(self):
         self.frame = Frame(self.win)
